@@ -12,9 +12,9 @@ node{
     }
     stage('PUSH image to Docker Hub')
     {
-        withCredentials([string(credentialsId: 'DockerHubPassword', variable: 'DHPWD')]) 
+        withCredentials([string(credentialsId: 'ab234bd7-ac71-4eb5-a9a3-778c570b2a89', variable: 'DHPWD')]) 
         {
-            sh "docker login -u vardhanns -p ${DHPWD}"
+            sh "docker login -u dogiparthy85 -p ${DHPWD}"
         }
         sh 'docker push dogiparthy85/online-shop'
     }
