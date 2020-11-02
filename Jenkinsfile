@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git credentialsId: '4cc785e9-441d-4818-a248-2bfb2148004d', url: 'https://github.com/dogiparthy85/online-shop.git'
+        git credentialsId: '8d151821-1af4-43ec-9dec-c2a847e48e23', url: 'https://github.com/dogiparthy85/online-shop.git'
     }
     
     stage('Run Docker Compose File')
