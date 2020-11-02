@@ -1,3 +1,3 @@
 # phpmysql-app
-An Ecoomm app built on PHP &amp; MySQL  
+An Ecomm app built on PHP &amp; MySQL  
 
